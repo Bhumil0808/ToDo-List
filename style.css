@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #53917e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    min-height: 400px;
+    width: 400px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#item{
+    font-size: 20px;
+    display: block;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+
+#to-do-list{
+    margin-top: 20px;
+    list-style: none;
+}
+
+#to-do-list li{
+    margin-bottom: 5px;
+    padding: 5px;
+    position: relative;
+    background-color: #53917e;
+    color: white;
+    border-radius: 2px;
+    padding-right: 28px;
+    text-align: justify;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+#to-do-list li i{
+    position: absolute;
+    padding-left: 2.5px;
+    margin: 1px ;
+    padding-top: 0px;
+    right: 5px;
+    top: 5px;
+    height: 16px;
+    width: 16px;
+    size: 2px;
+    color: #53917e;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.done{
+    text-decoration: line-through;
+    background-color:#2a4d42 !important;  
+    color: black !important;
+    
+}
